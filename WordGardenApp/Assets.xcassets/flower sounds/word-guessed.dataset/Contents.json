@@ -1,6 +1,7 @@
 {
-  "colors" : [
+  "data" : [
     {
+      "filename" : "word-guessed.mp3",
       "idiom" : "universal"
     }
   ],
