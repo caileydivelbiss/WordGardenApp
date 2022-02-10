@@ -23,13 +23,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="304" height="15.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Words Guessed: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AeV-oK-pBm">
-                                                <rect key="frame" x="0.0" y="0.0" width="131" height="15.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="139.5" height="15.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Words Remaining: 0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2mU-Ri-3sf">
-                                                <rect key="frame" x="191" y="0.0" width="113" height="15.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Words to Guess: 0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2mU-Ri-3sf">
+                                                <rect key="frame" x="199.5" y="0.0" width="104.5" height="15.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -166,7 +166,7 @@
                         <outlet property="wordsGuessedLabel" destination="AeV-oK-pBm" id="g9i-mL-7Xd"/>
                         <outlet property="wordsInGameLabel" destination="brN-s2-7L3" id="xFT-dO-co7"/>
                         <outlet property="wordsMissedLabel" destination="Y54-sp-Ega" id="dfF-cu-AK5"/>
-                        <outlet property="wordsRemainingLabel" destination="Y54-sp-Ega" id="ejx-25-rPR"/>
+                        <outlet property="wordsRemainingLabel" destination="2mU-Ri-3sf" id="sZU-TQ-PXh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
